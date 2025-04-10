@@ -1,0 +1,25 @@
+[project]
+name = "ceng418-hw-venv"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "muratkucuk",email = "muratkucuk@std.iyte.edu.tr"}
+]
+package-mode = false
+
+#readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sympy (>=1.13.3,<2.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "tabulate (>=0.9.0,<0.10.0)",
+    "cryptography (>=44.0.2,<45.0.0)",
+    "scipy (>=1.15.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
