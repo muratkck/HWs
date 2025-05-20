@@ -1,0 +1,28 @@
+Estimating Time to Crack 256-bit RSA
+===================================
+
+Supercomputer Specifications:
+  Name: Frontier (ORNL)
+  Peak Performance: 1.10e+18 FLOPS
+  CPU Cores: 8,699,904
+  Memory: 700 TB
+  Year: 2022
+  Location: Oak Ridge National Laboratory, USA
+
+Cracking Time Estimates:
+  Your Machine: 0.00 seconds
+  Frontier (ORNL): 0.00 seconds
+
+Speed-up Factor:
+  Frontier (ORNL) is approximately 2.20e+08 times faster than your machine
+
+Security Context:
+  WARNING: This key size might be vulnerable to a determined attacker with access
+  to supercomputing resources. Modern RSA implementations typically use 2048-bit
+  or 4096-bit keys to ensure long-term security.
+
+Note on Quantum Computing:
+  Quantum computers using Shor's algorithm could theoretically break RSA encryption
+  much faster. A sufficiently powerful quantum computer could factor an RSA-256 key
+  in seconds to minutes. However, current quantum computers are not yet capable of
+  breaking RSA keys of any practical size.

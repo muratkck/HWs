@@ -118,7 +118,7 @@ def simulate_brute_force(public_key, bit_length):
     # Instead of actually factoring, we'll simulate the time it would take
     # based on a simple model: checking all numbers up to sqrt(n)
     
-    if bit_length <= 16:  # Actually perform factorization for small bit lengths
+    if bit_length <= 256:  # Actually perform factorization for small bit lengths
         factor_found = False
         
         for i in range(2, int(math.sqrt(n)) + 1):
@@ -198,7 +198,7 @@ def demonstrate_rsa_with_bit_length(bit_length, message):
 def main():
     message = "Hello, RSA!"
     
-    bit_lengths = [2, 4, 8, 16, 32]
+    bit_lengths = [2, 4, 8, 16, 32, 64, 128, 256]
     
     for bit_length in bit_lengths:
         demonstrate_rsa_with_bit_length(bit_length, message)
